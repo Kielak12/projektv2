@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoRide Detailing – Mobilna Myjnia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>EcoRide Detailing</h1>
+    <nav>
+      <a href="#about">O nas</a>
+      <a href="#offer">Oferta</a>
+      <a href="#pricing">Cennik</a>
+      <a href="#gallery">Realizacje</a>
+      <a href="#faq">FAQ</a>
+      <a href="#booking">Umów online</a>
+      <a href="#reviews">Opinie</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Mobilna myjnia rowerów i hulajnóg</h2>
+    <p>Dojeżdżamy do Ciebie w Warszawie i okolicach. Ekologicznie, szybko i wygodnie!</p>
+    <a href="#booking" class="btn">Umów wizytę</a>
+  </section>
+
+  <section id="about">
+    <h2>O nas</h2>
+    <p>Świadczymy mobilne usługi mycia, czyszczenia i detailingu rowerów oraz hulajnóg w Warszawie. 
+    Korzystamy z biodegradowalnych środków czyszczących i profesjonalnych narzędzi.</p>
+  </section>
+
+  <section id="offer">
+    <h2>Oferta</h2>
+    <ul>
+      <li>Pakiet podstawowy – mycie, czyszczenie</li>
+      <li>Pakiet premium – pełny detailing + konserwacja</li>
+      <li>Opcje dodatkowe – smarowanie łańcucha, regulacja hamulców</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Cennik</h2>
+    <p>Pakiet podstawowy: 99 zł<br>Pakiet premium: 199 zł<br>Dodatki od 30 zł</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Realizacje</h2>
+    <p>[Zdjęcia przed/po – do wstawienia]</p>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <p><strong>Czy muszę gdzieś dojeżdżać?</strong> – Nie, przyjeżdżamy do Ciebie!</p>
+  </section>
+
+  <section id="booking">
+    <h2>Umów wizytę</h2>
+    <form id="booking-form">
+      <input type="text" name="name" placeholder="Imię" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="text" name="phone" placeholder="Telefon" required>
+      <select name="vehicle" required>
+        <option value="rower">Rower</option>
+        <option value="hulajnoga">Hulajnoga</option>
+      </select>
+      <input type="date" name="date" required>
+      <textarea name="message" placeholder="Dodatkowe informacje"></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+
+  <section id="reviews">
+    <h2>Opinie klientów</h2>
+    <div id="reviews-list"></div>
+    <form id="review-form">
+      <input type="text" name="author" placeholder="Twoje imię" required>
+      <textarea name="content" placeholder="Twoja opinia" required></textarea>
+      <button type="submit">Dodaj opinię</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p>Adres: ul. Wiosenna 12, 02-300 Warszawa<br>
+    Telefon: +48 505 987 321<br>
+    E-mail: kontakt@ecoridedetailing.pl</p>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoRide Detailing</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

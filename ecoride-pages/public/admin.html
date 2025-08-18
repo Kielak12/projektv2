@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel admina – EcoRide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Panel administratora</h1>
+  <form id="login-form">
+    <input type="text" name="username" placeholder="Login" required>
+    <input type="password" name="password" placeholder="Hasło" required>
+    <button type="submit">Zaloguj</button>
+  </form>
+
+  <div id="admin-panel" style="display:none;">
+    <h2>Rezerwacje</h2>
+    <div id="bookings-list"></div>
+
+    <h2>Opinie</h2>
+    <div id="admin-reviews-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
